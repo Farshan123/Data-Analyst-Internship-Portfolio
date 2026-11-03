@@ -116,8 +116,8 @@ Full reflection: [reports/learning-reflections.md](reports/learning-reflections.
 
 ## Contact
 - GitHub: [github.com/Farshan123](https://github.com/Farshan123)
-- Email and LinkedIn: _to be added by the owner_
-
+- Email : mfarshan611@gmail.com 
+- LinkedIn:https://www.linkedin.com/in/mfarshan/
 ## Repository structure
 ```
 README.md             this file
