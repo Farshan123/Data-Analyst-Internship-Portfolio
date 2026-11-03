@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Mohammed Farshan | Data Analyst</title>
+<meta name="description" content="Four Data Analyst internship projects: data cleaning, EDA with SQL, Power BI dashboard design and statistical validation, with findings and GitHub links.">
+<meta name="author" content="Mohammed Farshan">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Projects | Mohammed Farshan | Data Analyst">
+<meta property="og:description" content="Four Data Analyst internship projects: data cleaning, EDA with SQL, Power BI dashboard design and statistical validation, with findings and GitHub links.">
+<meta property="og:url" content="https://farshan123.github.io/Data-Analyst-Internship-Portfolio/projects.html">
+<meta property="og:image" content="https://farshan123.github.io/Data-Analyst-Internship-Portfolio/assets/images/og-banner.png">
+<meta property="og:image:alt" content="Data Analyst Portfolio banner for Mohammed Farshan">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<!-- NOTE: the header and footer are repeated in each of the four pages. If you change them, change all four. -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">Mohammed <span>Farshan</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav aria-label="Main navigation"><ul class="nav-links" id="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+
+<section style="padding-bottom:2rem">
+  <div class="wrap">
+    <div class="section-head"><h1>Projects</h1><p class="lede">Four internship projects, each with its own GitHub repository.</p></div>
+    <div class="filters" role="group" aria-label="Filter projects by tool">
+      <button type="button" data-filter="all" aria-pressed="true">All projects</button>
+      <button type="button" data-filter="python" aria-pressed="false">Python</button>
+      <button type="button" data-filter="sql" aria-pressed="false">SQL</button>
+      <button type="button" data-filter="powerbi" aria-pressed="false">Power BI and DAX</button>
+      <button type="button" data-filter="statistics" aria-pressed="false">Statistics</button>
+    </div>
+    <p class="filter-status" id="filter-status" role="status" aria-live="polite"></p>
+    <div class="grid two">
+      <article class="card project-card" data-tags="python data-cleaning">
+        <img src="assets/images/task-1-missing-values-audit.jpg" alt="Horizontal bar chart of missing values by column in the raw sales dataset: Age is missing 2.0 percent of rows and City 1.3 percent; all other columns are complete." width="1400" height="800" loading="eager">
+        <div class="body">
+          <p class="task">Task 1</p>
+          <h3>Data Cleaning and Preprocessing</h3>
+          <p>Audited a 1,000-row retail sales file, reported missing values and duplicates, standardised the schema and exported a cleaned dataset with a script anyone can re-run.</p>
+          <ul class="tags" aria-label="Tools used"><li>Python</li><li>pandas</li><li>NumPy</li><li>CSV</li></ul>
+          <div class="btn-row">
+            <a class="btn sm" href="#task-1">View project</a>
+            <a class="btn sm ghost" href="https://github.com/Farshan123/Apexplanet-Task-1" rel="noopener" aria-label="Task 1 GitHub repository (opens GitHub)">GitHub repository</a>
+          </div>
+        </div>
+      </article>
+      <article class="card project-card" data-tags="python sql">
+        <img src="assets/images/task-2-dashboard-mockup.jpg" alt="Executive sales dashboard mock-up showing headline revenue, order count and average order value cards with monthly revenue, category and demographic charts." width="1400" height="800" loading="lazy">
+        <div class="body">
+          <p class="task">Task 2</p>
+          <h3>Exploratory Data Analysis and SQL</h3>
+          <p>Cleaned the sales data, loaded it into SQLite, answered seven business questions with SQL and summarised the results in charts and a static dashboard mock-up.</p>
+          <ul class="tags" aria-label="Tools used"><li>Python</li><li>pandas</li><li>Matplotlib</li><li>Seaborn</li><li>SQL (SQLite)</li><li>Jupyter</li></ul>
+          <div class="btn-row">
+            <a class="btn sm" href="#task-2">View project</a>
+            <a class="btn sm ghost" href="https://github.com/Farshan123/Apexplanet-Task-2" rel="noopener" aria-label="Task 2 GitHub repository (opens GitHub)">GitHub repository</a>
+          </div>
+        </div>
+      </article>
+      <article class="card project-card" data-tags="powerbi python">
+        <img src="assets/images/task-3-dashboard-preview.jpg" alt="Sales performance dashboard preview with five KPI cards, a monthly revenue line chart, revenue by category and city, and customer value segmentation charts." width="1400" height="800" loading="lazy">
+        <div class="body">
+          <p class="task">Task 3</p>
+          <h3>Deep-Dive Analysis and Power BI Dashboard</h3>
+          <p>Defined five core KPIs, segmented orders by value tier and prepared a two-page Power BI dashboard design with DAX measures, a custom theme and a build guide.</p>
+          <ul class="tags" aria-label="Tools used"><li>Power BI</li><li>DAX</li><li>Python</li><li>Excel</li></ul>
+          <div class="btn-row">
+            <a class="btn sm" href="#task-3">View project</a>
+            <a class="btn sm ghost" href="https://github.com/Farshan123/Apexplanet-Task-3" rel="noopener" aria-label="Task 3 GitHub repository (opens GitHub)">GitHub repository</a>
+          </div>
+        </div>
+      </article>
+      <article class="card project-card" data-tags="python statistics">
+        <img src="assets/images/task-4-statistical-summary.jpg" alt="Forest plot summarising the effect sizes and significance of the six hypothesis tests from the statistical validation project." width="1400" height="800" loading="lazy">
+        <div class="body">
+          <p class="task">Task 4</p>
+          <h3>Data Storytelling and Statistical Validation</h3>
+          <p>Tested six business hypotheses with Welch t-tests, ANOVA and chi-square tests, reported p-values, confidence intervals and effect sizes, and presented the story in a 17-slide deck.</p>
+          <ul class="tags" aria-label="Tools used"><li>Python</li><li>SciPy</li><li>statsmodels</li><li>Jupyter</li><li>PowerPoint</li></ul>
+          <div class="btn-row">
+            <a class="btn sm" href="#task-4">View project</a>
+            <a class="btn sm ghost" href="https://github.com/Farshan123/Apexplanet-task-4" rel="noopener" aria-label="Task 4 GitHub repository (opens GitHub)">GitHub repository</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<nav class="subnav" aria-label="Project details"><div class="wrap"><ul><li><a href="#task-1">Task 1</a></li><li><a href="#task-2">Task 2</a></li><li><a href="#task-3">Task 3</a></li><li><a href="#task-4">Task 4</a></li></ul></div></nav>
+
+<section class="detail" id="task-1" data-tags="python data-cleaning" aria-labelledby="task-1-h">
+  <div class="wrap detail-grid">
+    <div>
+      <p class="small" style="margin:0">Task 1</p>
+      <h2 id="task-1-h">Data Cleaning and Preprocessing</h2>
+      <h3>Business objective</h3><p>Inspect a raw sales dataset, measure its quality problems and produce a clean, reproducible file for the later tasks.</p>
+      <h3>Dataset overview</h3><p>1,000 rows and 12 columns: Order_ID, Order_Date, Customer_ID, Customer_Name, Age, Gender, City, Product, Category, Quantity, Unit_Price, Total_Sales.</p>
+      <h3>Methodology</h3><ul><li>Inspected shape, data types, summary statistics and unique values per column.</li><li>Wrote a missing-value report (count and percentage per column).</li><li>Checked for exact duplicate rows.</li><li>Standardised column names to lowercase snake_case, converted blank cells to missing values and trimmed whitespace in text columns.</li><li>Removed exact duplicates (if any) and validated the row count before and after.</li></ul>
+      <h3>Analysis performed</h3><p>Data-quality audit and cleaning only; no modelling at this stage.</p>
+      <h3>Technologies used</h3><p>Python, pandas, NumPy, CSV</p>
+    </div>
+    <div>
+      <figure><img src="assets/images/task-1-missing-values-audit.jpg" alt="Horizontal bar chart of missing values by column in the raw sales dataset: Age is missing 2.0 percent of rows and City 1.3 percent; all other columns are complete." width="1400" height="800" loading="lazy"><figcaption>Chart generated from the project's own missing_values_report.csv (the repository has no dashboard screenshot for this task).</figcaption></figure>
+      <h3>Important findings</h3><ul><li>Only two columns had missing values: Age (20 rows, 2.0%) and City (13 rows, 1.3%).</li><li>No exact duplicate rows were found, so all 1,000 rows were kept.</li></ul>
+      <h3>Project outputs</h3><ul><li>cleaned_dataset.csv</li><li>missing_values_report.csv</li><li>data_dictionary.csv</li><li>task1_cleaning.py (cleaning script)</li></ul>
+      <div class="btn-row"><a class="btn" href="https://github.com/Farshan123/Apexplanet-Task-1" rel="noopener">Open the Task 1 repository</a></div>
+    </div>
+  </div>
+</section>
+<section class="detail" id="task-2" data-tags="python sql" aria-labelledby="task-2-h">
+  <div class="wrap detail-grid">
+    <div>
+      <p class="small" style="margin:0">Task 2</p>
+      <h2 id="task-2-h">Exploratory Data Analysis and SQL</h2>
+      <h3>Business objective</h3><p>Explore the sales data end to end and answer core commercial questions: what sells, where, when and to whom.</p>
+      <h3>Dataset overview</h3><p>1,000 transactions from 1 January 2025 to 1 January 2026 across 8 cities, 5 categories and 6 products.</p>
+      <h3>Methodology</h3><ul><li>Cleaned the data in Python: median-imputed 20 missing ages (with an audit flag), labelled 13 missing cities as Unknown, kept 9 colliding ORD100050 records by giving them unique suffixes and confirmed Total_Sales = Quantity x Unit_Price on every row.</li><li>Added date and age-group features.</li><li>Staged the data in a SQLite database and ran seven business queries.</li><li>Ran univariate and multivariate analysis, including a correlation heatmap.</li><li>Built a static dashboard mock-up.</li></ul>
+      <h3>Analysis performed</h3><p>Category, monthly, city, demographic, top-customer, product and order-size-tier analysis in SQL, plus correlation analysis in Python.</p>
+      <h3>Technologies used</h3><p>Python, pandas, Matplotlib, Seaborn, SQL (SQLite), Jupyter</p>
+    </div>
+    <div>
+      <figure><img src="assets/images/task-2-dashboard-mockup.jpg" alt="Executive sales dashboard mock-up showing headline revenue, order count and average order value cards with monthly revenue, category and demographic charts." width="1400" height="800" loading="lazy"><figcaption>Static executive dashboard mock-up produced in Python for Task 2.</figcaption></figure>
+      <h3>Important findings</h3><ul><li>Electronics led revenue with Rs 50.78M, a 36.43% share.</li><li>Revenue peaked in March 2025 (Rs 13.06M) and softened in August and September (Rs 9.45M and Rs 9.18M).</li><li>Bengaluru had the highest average order value at Rs 153,881.76.</li><li>Orders of Rs 250k or more were 17.0% of orders but 41.62% of revenue.</li><li>Total_Sales correlated with Unit_Price (r = 0.697) and Quantity (r = 0.638).</li></ul>
+      <h3>Project outputs</h3><ul><li>Jupyter EDA notebook</li><li>business_queries.sql with 7 queries and exported result tables</li><li>8 exported figures</li><li>EDA report and dashboard mock-up</li></ul>
+      <div class="btn-row"><a class="btn" href="https://github.com/Farshan123/Apexplanet-Task-2" rel="noopener">Open the Task 2 repository</a></div>
+    </div>
+  </div>
+</section>
+<section class="detail" id="task-3" data-tags="powerbi python" aria-labelledby="task-3-h">
+  <div class="wrap detail-grid">
+    <div>
+      <p class="small" style="margin:0">Task 3</p>
+      <h2 id="task-3-h">Deep-Dive Analysis and Power BI Dashboard</h2>
+      <h3>Business objective</h3><p>Answer which order-value segments, products, cities and age groups drive revenue and where the biggest growth opportunity lies.</p>
+      <h3>Dataset overview</h3><p>The cleaned 1,000-transaction sales dataset, enriched with value segment, age group, month and data-quality flags.</p>
+      <h3>Methodology</h3><ul><li>Defined five KPIs with formulas and rationale: Total Revenue, Total Orders, Average Order Value, Month-over-Month Growth and Repeat Customer Rate.</li><li>Segmented orders into Low, Medium, High and Premium tiers using percentile thresholds on order value.</li><li>Wrote DAX measures for the KPIs and the segmentation analysis.</li><li>Documented the dashboard build (theme file and step-by-step guide).</li></ul>
+      <h3>Analysis performed</h3><p>Value-segment, category, city and month analysis, with data caveats documented (repeated Order_ID, missing City and Age, a partial final month).</p>
+      <h3>Technologies used</h3><p>Power BI, DAX, Python, Excel</p>
+    </div>
+    <div>
+      <figure><img src="assets/images/task-3-dashboard-preview.jpg" alt="Sales performance dashboard preview with five KPI cards, a monthly revenue line chart, revenue by category and city, and customer value segmentation charts." width="1400" height="800" loading="lazy"><figcaption>Layout preview rendered in Python (as stated in the Task 3 README). The Power BI .pbix file is not part of the files used to build this site.</figcaption></figure>
+      <h3>Important findings</h3><ul><li>34% of orders (High and Premium tiers) generated 66.5% of revenue.</li><li>Electronics made up 36.4% of revenue and 41.4% of Premium-tier revenue.</li><li>Revenue in August and September ran about 16% below other quarters, then rebounded 36.2% in October.</li><li>94.5% of customers bought only once; the repeat rate was 5.5%.</li></ul>
+      <h3>Project outputs</h3><ul><li>KPI definitions</li><li>Deep-dive analysis and key-findings reports</li><li>DAX measures file and Power BI theme</li><li>Dashboard build guide and preview images</li></ul>
+      <div class="btn-row"><a class="btn" href="https://github.com/Farshan123/Apexplanet-Task-3" rel="noopener">Open the Task 3 repository</a></div>
+    </div>
+  </div>
+</section>
+<section class="detail" id="task-4" data-tags="python statistics" aria-labelledby="task-4-h">
+  <div class="wrap detail-grid">
+    <div>
+      <p class="small" style="margin:0">Task 4</p>
+      <h2 id="task-4-h">Data Storytelling and Statistical Validation</h2>
+      <h3>Business objective</h3><p>Check whether patterns seen in Tasks 1 to 3 are statistically reliable, then turn the results into recommendations for decision makers.</p>
+      <h3>Dataset overview</h3><p>The same 1,000-transaction sales dataset (987 to 1,000 rows used per test, depending on missing values).</p>
+      <h3>Methodology</h3><ul><li>Wrote six hypotheses with null and alternative statements and a 0.05 significance level.</li><li>Chose Welch's t-test, one-way ANOVA, chi-square independence and chi-square goodness-of-fit tests.</li><li>Checked assumptions (Levene's test for equal variances, expected cell counts for chi-square).</li><li>Reported test statistics, exact p-values, 95% confidence intervals and effect sizes, and separated statistical from practical significance.</li><li>Built a 17-slide presentation and an automated test suite for the statistical code.</li></ul>
+      <h3>Analysis performed</h3><p>Gender, category, city and quarter comparisons of order value and order volume.</p>
+      <h3>Technologies used</h3><p>Python, SciPy, statsmodels, Jupyter, PowerPoint</p>
+    </div>
+    <div>
+      <figure><img src="assets/images/task-4-statistical-summary.jpg" alt="Forest plot summarising the effect sizes and significance of the six hypothesis tests from the statistical validation project." width="1400" height="800" loading="lazy"><figcaption>Summary figure of the six hypothesis tests, exported from the Task 4 analysis.</figcaption></figure>
+      <h3>Important findings</h3><ul><li>Only one of six hypotheses was rejected: order volume is not evenly spread across the five categories (chi-square = 150.13, p &lt; 0.001).</li><li>No significant difference in average order value by gender (p = 0.495), category (p = 0.580) or city (p = 0.505).</li><li>Q3 order values were about Rs 14,602 lower than other quarters, but this was not significant at the 0.05 level (p = 0.081).</li><li>The gender and category association was borderline and not significant (p = 0.059).</li></ul>
+      <h3>Project outputs</h3><ul><li>Hypothesis-testing notebook</li><li>statistical_results.csv</li><li>17-slide PowerPoint and slide images</li><li>Hypothesis-testing and data-storytelling reports</li><li>Python modules and unit tests</li></ul>
+      <div class="btn-row"><a class="btn" href="https://github.com/Farshan123/Apexplanet-task-4" rel="noopener">Open the Task 4 repository</a></div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year">2026</span> Mohammed Farshan. Data Analyst portfolio built from my ApexPlanet internship projects.</p>
+    <p><a href="https://github.com/Farshan123" rel="noopener">GitHub profile</a> &nbsp;|&nbsp; <a href="https://github.com/Farshan123/Data-Analyst-Internship-Portfolio" rel="noopener">Portfolio repository</a></p>
+  </div>
+</footer>
+<button id="back-to-top" aria-label="Back to top">&uarr;</button>
+<script src="js/script.js"></script>
+</body>
+</html>

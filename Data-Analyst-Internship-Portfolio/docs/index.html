@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohammed Farshan | Data Analyst Portfolio</title>
+<meta name="description" content="Data Analyst portfolio of Mohammed Farshan: four ApexPlanet internship projects covering data cleaning, SQL, Power BI and statistical validation.">
+<meta name="author" content="Mohammed Farshan">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mohammed Farshan | Data Analyst Portfolio">
+<meta property="og:description" content="Data Analyst portfolio of Mohammed Farshan: four ApexPlanet internship projects covering data cleaning, SQL, Power BI and statistical validation.">
+<meta property="og:url" content="https://farshan123.github.io/Data-Analyst-Internship-Portfolio/index.html">
+<meta property="og:image" content="https://farshan123.github.io/Data-Analyst-Internship-Portfolio/assets/images/og-banner.png">
+<meta property="og:image:alt" content="Data Analyst Portfolio banner for Mohammed Farshan">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<!-- NOTE: the header and footer are repeated in each of the four pages. If you change them, change all four. -->
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">Mohammed <span>Farshan</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav aria-label="Main navigation"><ul class="nav-links" id="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="role">Data Analyst | ApexPlanet Data Analytics Internship</p>
+      <h1>Mohammed Farshan</h1>
+      <p class="lede">I turn raw sales data into clear answers. During my ApexPlanet internship I cleaned a retail dataset, queried it with SQL, built a KPI dashboard design and tested business claims statistically.</p>
+      <div class="btn-row">
+        <a class="btn" href="projects.html">View projects</a>
+        <a class="btn ghost" href="https://github.com/Farshan123" rel="noopener">GitHub profile</a>
+      </div>
+      <!-- TODO-LINKEDIN: when you have a LinkedIn URL, add: <a class="btn ghost" href="YOUR_LINKEDIN_URL" rel="noopener">LinkedIn</a> -->
+      <!-- TODO-RESUME: when you have an approved resume PDF, put it in docs/assets/ and add: <a class="btn ghost" href="assets/Resume.pdf" download>Download resume</a> -->
+    </div>
+    <aside class="evidence" aria-labelledby="ev-title">
+      <h2 id="ev-title">From my Task 4 analysis: six hypotheses tested</h2>
+      <p class="small" style="margin:0">Significance level 0.05, 1,000 retail transactions.</p>
+      <table>
+        <thead><tr><th scope="col">Question</th><th scope="col">p-value</th><th scope="col">Result</th></tr></thead>
+        <tbody>
+          <tr><td>Gender vs order value</td><td class="num">0.495</td><td><span class="pill">Not significant</span></td></tr>
+          <tr><td>Category vs order value</td><td class="num">0.580</td><td><span class="pill">Not significant</span></td></tr>
+          <tr><td>Gender vs category chosen</td><td class="num">0.059</td><td><span class="pill">Not significant</span></td></tr>
+          <tr><td>Even demand across categories</td><td class="num">&lt; 0.001</td><td><span class="pill sig">Rejected</span></td></tr>
+          <tr><td>City vs order value</td><td class="num">0.505</td><td><span class="pill">Not significant</span></td></tr>
+          <tr><td>Q3 vs other quarters</td><td class="num">0.081</td><td><span class="pill">Not significant</span></td></tr>
+        </tbody>
+      </table>
+    </aside>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="path-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="path-h">Four projects, one dataset</h2>
+    <p>Each task built on the one before it, from a raw file to a tested recommendation.</p></div>
+    <div class="grid two">
+      <article class="card"><h3>Task 1: Data Cleaning and Preprocessing</h3><p>Audited a 1,000-row retail sales file, reported missing values and duplicates, standardised the schema and exported a cleaned dataset with a script anyone can re-run.</p><p style="margin:0"><a href="projects.html#task-1">Read the project details</a></p></article>
+      <article class="card"><h3>Task 2: Exploratory Data Analysis and SQL</h3><p>Cleaned the sales data, loaded it into SQLite, answered seven business questions with SQL and summarised the results in charts and a static dashboard mock-up.</p><p style="margin:0"><a href="projects.html#task-2">Read the project details</a></p></article>
+      <article class="card"><h3>Task 3: Deep-Dive Analysis and Power BI Dashboard</h3><p>Defined five core KPIs, segmented orders by value tier and prepared a two-page Power BI dashboard design with DAX measures, a custom theme and a build guide.</p><p style="margin:0"><a href="projects.html#task-3">Read the project details</a></p></article>
+      <article class="card"><h3>Task 4: Data Storytelling and Statistical Validation</h3><p>Tested six business hypotheses with Welch t-tests, ANOVA and chi-square tests, reported p-values, confidence intervals and effect sizes, and presented the story in a 17-slide deck.</p><p style="margin:0"><a href="projects.html#task-4">Read the project details</a></p></article>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="skills-h">
+  <div class="wrap">
+    <div class="section-head"><h2 id="skills-h">Tools I have used in these projects</h2></div>
+    <ul class="tags" style="gap:.6rem"><li>Python</li><li>pandas</li><li>SQL (SQLite)</li><li>Power BI</li><li>DAX</li><li>Excel</li><li>Jupyter</li><li>Git and GitHub</li><li>Hypothesis testing</li></ul>
+    <p style="margin-top:1.5rem"><a href="about.html#skills">See how I used each one</a></p>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year">2026</span> Mohammed Farshan. Data Analyst portfolio built from my ApexPlanet internship projects.</p>
+    <p><a href="https://github.com/Farshan123" rel="noopener">GitHub profile</a> &nbsp;|&nbsp; <a href="https://github.com/Farshan123/Data-Analyst-Internship-Portfolio" rel="noopener">Portfolio repository</a></p>
+  </div>
+</footer>
+<button id="back-to-top" aria-label="Back to top">&uarr;</button>
+<script src="js/script.js"></script>
+</body>
+</html>
